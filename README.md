@@ -23,13 +23,14 @@ The Employee Management System is a web application designed to manage employee 
 ### Clone the Repository
 
 git clone https://github.com/Rekha-G05/emp-management-system.git
-cd emp-management-system
+
+>cd emp-management-system
 
 ### Setting Up the Database
 
 1. **Create the Database**
 
-   CREATE DATABASE EmployeeManagement;
+  > CREATE DATABASE EmployeeManagement;
 
 
 2. **Create the Employees Table**
@@ -64,11 +65,11 @@ DATABASE_URL=Host=localhost;Port=5432;Database=EmployeeManagement;Username=your_
 2. Run the following commands:
  
    dotnet restore
-   dotnet run
+   >dotnet run
 
 #### Frontend
 1. Navigate to the frontend directory.
 2. Run the following commands:
 
-   npm install
-   npm start
+   >npm install
+   >npm start
