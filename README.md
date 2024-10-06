@@ -22,7 +22,7 @@ The Employee Management System is a web application designed to manage employee 
 
 ### Clone the Repository
 
-git clone https://github.com/Rekha-G05/emp-management-system.git
+>git clone https://github.com/Rekha-G05/emp-management-system.git
 
 >cd emp-management-system
 
@@ -36,6 +36,7 @@ git clone https://github.com/Rekha-G05/emp-management-system.git
 2. **Create the Employees Table**
 
    \c EmployeeManagement;
+   
 
    CREATE TABLE Employees (
        Id SERIAL PRIMARY KEY,
@@ -44,7 +45,7 @@ git clone https://github.com/Rekha-G05/emp-management-system.git
        Salary DECIMAL(10, 2) NOT NULL
    );
 
-   -- Insert sample data
+   ---- Insert sample data ----
 
    INSERT INTO Employees (Name, Position, Salary) VALUES
    ('Rekha G', 'Software Engineer', 60000.00),
@@ -64,7 +65,8 @@ DATABASE_URL=Host=localhost;Port=5432;Database=EmployeeManagement;Username=your_
 1. Navigate to the backend directory.
 2. Run the following commands:
  
-   dotnet restore
+   >dotnet restore
+   
    >dotnet run
 
 #### Frontend
@@ -72,4 +74,5 @@ DATABASE_URL=Host=localhost;Port=5432;Database=EmployeeManagement;Username=your_
 2. Run the following commands:
 
    >npm install
+   
    >npm start
